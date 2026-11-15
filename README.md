@@ -12,7 +12,7 @@
 ![Pandas](https://img.shields.io/badge/Pandas-Evaluation-150458?logo=pandas&logoColor=white)
 ![Cost](https://img.shields.io/badge/Cost-%240%20·%20runs%20offline-2ea44f)
 
-[📖 Medium article](#) · [🧪 Results](#-results) · [🏗️ Architecture](#%EF%B8%8F-architecture) · [🖼️ Screenshots](#%EF%B8%8F-screenshots)
+[📖 Medium article](https://medium.com/@reddymanojkumar1518/advanced-rag-in-practice-does-query-rewriting-and-reranking-really-help-1f6f5114eb99) · [🧪 Results](#-results) · [🏗️ Architecture](#%EF%B8%8F-architecture) · [🖼️ Screenshots](#%EF%B8%8F-screenshots)
 
 </div>
 
