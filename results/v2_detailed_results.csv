@@ -1,0 +1,65 @@
+question,type,mode,search_query,hit,rank,rr,retrieval_s
+What is the Phishing Campaign Assessment offered by CISA?,clear,basic,What is the Phishing Campaign Assessment offered by CISA?,True,3.0,0.3333333333333333,1.414
+What is the Phishing Campaign Assessment offered by CISA?,clear,rewrite,CISA Phishing Campaign Assessment,True,4.0,0.25,6.344
+What is the Phishing Campaign Assessment offered by CISA?,clear,rerank,What is the Phishing Campaign Assessment offered by CISA?,True,1.0,1.0,3.667
+What is the Phishing Campaign Assessment offered by CISA?,clear,both,CISA Phishing Campaign Assessment,True,1.0,1.0,1.913
+What file types should be blocked from leaving the network?,clear,basic,What file types should be blocked from leaving the network?,True,1.0,1.0,0.012
+What file types should be blocked from leaving the network?,clear,rewrite,What file types should be blocked from leaving the network?,True,1.0,1.0,1.125
+What file types should be blocked from leaving the network?,clear,rerank,What file types should be blocked from leaving the network?,True,1.0,1.0,0.795
+What file types should be blocked from leaving the network?,clear,both,What file types should be blocked from leaving the network?,True,1.0,1.0,1.615
+What is the principle of least privilege?,clear,basic,What is the principle of least privilege?,True,1.0,1.0,0.009
+What is the principle of least privilege?,clear,rewrite,Principle of least privilege definition and explanation in cybersecurity,True,1.0,1.0,1.161
+What is the principle of least privilege?,clear,rerank,What is the principle of least privilege?,True,1.0,1.0,0.758
+What is the principle of least privilege?,clear,both,Principle of least privilege definition and explanation in cybersecurity,True,1.0,1.0,1.639
+What is number matching in multi-factor authentication?,clear,basic,What is number matching in multi-factor authentication?,True,1.0,1.0,0.01
+What is number matching in multi-factor authentication?,clear,rewrite,Multi-factor authentication number matching,True,1.0,1.0,0.826
+What is number matching in multi-factor authentication?,clear,rerank,What is number matching in multi-factor authentication?,True,1.0,1.0,1.313
+What is number matching in multi-factor authentication?,clear,both,Multi-factor authentication number matching,True,1.0,1.0,1.795
+What are the best practices for protecting my Aadhaar?,clear,basic,What are the best practices for protecting my Aadhaar?,True,1.0,1.0,0.013
+What are the best practices for protecting my Aadhaar?,clear,rewrite,Protecting Aadhaar with cyber security best practices and identity theft prevention,True,1.0,1.0,1.359
+What are the best practices for protecting my Aadhaar?,clear,rerank,What are the best practices for protecting my Aadhaar?,True,1.0,1.0,0.837
+What are the best practices for protecting my Aadhaar?,clear,both,Protecting Aadhaar with cyber security best practices and identity theft prevention,True,1.0,1.0,1.802
+What is sandboxing used for in email security?,clear,basic,What is sandboxing used for in email security?,False,,0.0,0.01
+What is sandboxing used for in email security?,clear,rewrite,Sandboxing in email security threats and malware prevention,False,,0.0,1.142
+What is sandboxing used for in email security?,clear,rerank,What is sandboxing used for in email security?,False,,0.0,0.807
+What is sandboxing used for in email security?,clear,both,Sandboxing in email security threats and malware detection,False,,0.0,1.892
+how do I stop someone guessing my logins?,vague,basic,how do I stop someone guessing my logins?,False,,0.0,0.015
+how do I stop someone guessing my logins?,vague,rewrite,Protecting login credentials from guessing attacks in cyber security,False,,0.0,1.352
+how do I stop someone guessing my logins?,vague,rerank,how do I stop someone guessing my logins?,False,,0.0,1.61
+how do I stop someone guessing my logins?,vague,both,Protecting login credentials from guessing attacks in cyber security,False,,0.0,1.883
+what extra step keeps my account safe if my password leaks?,vague,basic,what extra step keeps my account safe if my password leaks?,False,,0.0,0.015
+what extra step keeps my account safe if my password leaks?,vague,rewrite,Password leak protection measures for account security,False,,0.0,1.199
+what extra step keeps my account safe if my password leaks?,vague,rerank,what extra step keeps my account safe if my password leaks?,True,4.0,0.25,0.822
+what extra step keeps my account safe if my password leaks?,vague,both,Password leak protection extra step for account security,False,,0.0,1.702
+what if my files get wiped by an attack?,vague,basic,what if my files get wiped by an attack?,True,1.0,1.0,0.013
+what if my files get wiped by an attack?,vague,rewrite,file wipeout cyber attack security breach data loss prevention,True,1.0,1.0,1.301
+what if my files get wiped by an attack?,vague,rerank,what if my files get wiped by an attack?,True,5.0,0.2,0.897
+what if my files get wiped by an attack?,vague,both,file wipeout cyber attack security breach data loss prevention,True,1.0,1.0,2.569
+is it safe to buy things on the internet?,vague,basic,is it safe to buy things on the internet?,True,1.0,1.0,0.013
+is it safe to buy things on the internet?,vague,rewrite,online shopping safety tips and precautions for buying on the internet,True,1.0,1.0,1.411
+is it safe to buy things on the internet?,vague,rerank,is it safe to buy things on the internet?,True,1.0,1.0,0.91
+is it safe to buy things on the internet?,vague,both,online shopping safety tips and precautions for buying on the internet,True,1.0,1.0,1.903
+how do companies stop bad messages reaching staff?,vague,basic,how do companies stop bad messages reaching staff?,False,,0.0,0.009
+how do companies stop bad messages reaching staff?,vague,rewrite,Company email security measures to block malicious staff messages,False,,0.0,1.16
+how do companies stop bad messages reaching staff?,vague,rerank,how do companies stop bad messages reaching staff?,False,,0.0,0.951
+how do companies stop bad messages reaching staff?,vague,both,Company email security measures to block malicious staff messages,True,2.0,0.5,1.777
+how can I tell if a message is fake?,vague,basic,how can I tell if a message is fake?,True,1.0,1.0,0.012
+how can I tell if a message is fake?,vague,rewrite,Identifying fake messages in cybersecurity threats and phishing attacks,True,1.0,1.0,1.249
+how can I tell if a message is fake?,vague,rerank,how can I tell if a message is fake?,True,1.0,1.0,0.917
+how can I tell if a message is fake?,vague,both,Identifying fake messages in cybersecurity threats and phishing attacks,True,1.0,1.0,2.412
+how do I keep my phone safe?,vague,basic,how do I keep my phone safe?,True,1.0,1.0,0.014
+how do I keep my phone safe?,vague,rewrite,phone security tips for safe mobile device protection,True,1.0,1.0,1.117
+how do I keep my phone safe?,vague,rerank,how do I keep my phone safe?,True,1.0,1.0,0.801
+how do I keep my phone safe?,vague,both,phone security tips for safe mobile device protection,True,2.0,0.5,1.578
+what should I do after clicking a bad link?,vague,basic,what should I do after clicking a bad link?,True,3.0,0.3333333333333333,0.012
+what should I do after clicking a bad link?,vague,rewrite,what to do after clicking a phishing link,True,1.0,1.0,1.17
+what should I do after clicking a bad link?,vague,rerank,what should I do after clicking a bad link?,True,1.0,1.0,0.928
+what should I do after clicking a bad link?,vague,both,what to do after clicking a phishing link,True,1.0,1.0,2.475
+how do they stop it?,ambiguous,basic,how do they stop it?,True,5.0,0.2,0.017
+how do they stop it?,ambiguous,rewrite,How to prevent ransomware attacks on personal devices.,False,,0.0,1.166
+how do they stop it?,ambiguous,rerank,how do they stop it?,False,,0.0,0.939
+how do they stop it?,ambiguous,both,How to prevent ransomware attacks on personal devices.,False,,0.0,1.701
+what should I do if it happens?,ambiguous,basic,what should I do if it happens?,False,,0.0,0.014
+what should I do if it happens?,ambiguous,rewrite,what to do if data breach occurs on personal device,False,,0.0,1.353
+what should I do if it happens?,ambiguous,rerank,what should I do if it happens?,True,1.0,1.0,0.881
+what should I do if it happens?,ambiguous,both,what to do if data breach occurs on personal device,False,,0.0,1.779

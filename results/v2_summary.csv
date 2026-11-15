@@ -1,0 +1,5 @@
+mode,hit_rate,mrr,avg_retrieval_s
+basic,0.688,0.554,0.1
+rewrite,0.625,0.578,1.527
+rerank,0.75,0.653,1.115
+both,0.688,0.625,1.902

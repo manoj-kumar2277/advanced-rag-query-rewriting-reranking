@@ -1,0 +1,82 @@
+[
+  {
+    "question": "What is the Phishing Campaign Assessment offered by CISA?",
+    "expected_phrases": ["Phishing Campaign Assessment"],
+    "type": "clear"
+  },
+  {
+    "question": "What file types should be blocked from leaving the network?",
+    "expected_phrases": ["executable files"],
+    "type": "clear"
+  },
+  {
+    "question": "What is the principle of least privilege?",
+    "expected_phrases": ["least privilege"],
+    "type": "clear"
+  },
+  {
+    "question": "What is number matching in multi-factor authentication?",
+    "expected_phrases": ["number matching"],
+    "type": "clear"
+  },
+  {
+    "question": "What are the best practices for protecting my Aadhaar?",
+    "expected_phrases": ["Aadhaar"],
+    "type": "clear"
+  },
+  {
+    "question": "What is sandboxing used for in email security?",
+    "expected_phrases": ["sandboxing"],
+    "type": "clear"
+  },
+  {
+    "question": "how do I stop someone guessing my logins?",
+    "expected_phrases": ["password manager"],
+    "type": "vague"
+  },
+  {
+    "question": "what extra step keeps my account safe if my password leaks?",
+    "expected_phrases": ["2-step verification"],
+    "type": "vague"
+  },
+  {
+    "question": "what if my files get wiped by an attack?",
+    "expected_phrases": ["backup"],
+    "type": "vague"
+  },
+  {
+    "question": "is it safe to buy things on the internet?",
+    "expected_phrases": ["online shopping"],
+    "type": "vague"
+  },
+  {
+    "question": "how do companies stop bad messages reaching staff?",
+    "expected_phrases": ["email filter"],
+    "type": "vague"
+  },
+  {
+    "question": "how can I tell if a message is fake?",
+    "expected_phrases": ["suspicious"],
+    "type": "vague"
+  },
+  {
+    "question": "how do I keep my phone safe?",
+    "expected_phrases": ["mobile"],
+    "type": "vague"
+  },
+  {
+    "question": "what should I do after clicking a bad link?",
+    "expected_phrases": ["report"],
+    "type": "vague"
+  },
+  {
+    "question": "how do they stop it?",
+    "expected_phrases": ["email filter"],
+    "type": "ambiguous"
+  },
+  {
+    "question": "what should I do if it happens?",
+    "expected_phrases": ["recover"],
+    "type": "ambiguous"
+  }
+]

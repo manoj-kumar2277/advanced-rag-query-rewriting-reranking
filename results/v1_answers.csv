@@ -1,0 +1,282 @@
+question,type,mode,search_query,hit,rank,rr,retrieval_s,answer,answer_s,manual_score
+What is the Phishing Campaign Assessment offered by CISA?,clear,basic,What is the Phishing Campaign Assessment offered by CISA?,True,3.0,0.3333333333333333,1.28,The Phishing Campaign Assessment is a free service offered by CISA (Cybersecurity and Infrastructure Security Agency) for public and private organizations to measure their propensity for becoming a victim of a phishing attack.,30.68,
+What is the Phishing Campaign Assessment offered by CISA?,clear,rewrite,Phishing Campaign Assessment CISA,True,2.0,0.5,2.064,The Phishing Campaign Assessment is a free service offered by CISA (Cybersecurity and Infrastructure Security Agency) for public and private organizations to measure their propensity for becoming a victim of a phishing attack.,26.84,
+What is the Phishing Campaign Assessment offered by CISA?,clear,rerank,What is the Phishing Campaign Assessment offered by CISA?,True,1.0,1.0,3.379,The Phishing Campaign Assessment is a six-week free service offered by CISA (Cybersecurity and Infrastructure Security Agency) for public and private organizations to measure their propensity for becoming a victim of a phishing attack.,29.87,
+What is the Phishing Campaign Assessment offered by CISA?,clear,both,Phishing Campaign Assessment CISA,True,1.0,1.0,2.182,"The Phishing Campaign Assessment is a free service offered by CISA (Cybersecurity and Infrastructure Security Agency) for public and private organizations, which measures an organization's propensity for becoming a victim of a phishing attack.",16.34,
+What file types should be blocked from leaving the network?,clear,basic,What file types should be blocked from leaving the network?,True,1.0,1.0,0.019,"According to the context, the following file types should be blocked from leaving the network:
+
+* Executable files (e.g., .exe)
+* .scr
+* .pif
+* .cpl
+
+Additionally, mislabeled file extensions (e.g., a .exe file labeled as a .doc file) should also be blocked.",25.12,
+What file types should be blocked from leaving the network?,clear,rewrite,Block file types .exe .zip .rar from leaving the network,True,2.0,0.5,1.621,"According to [2] (Capacity_Enhancement_Guide-Counter-Phishing-Recommendations_for_Non-Federal_Organizations.pdf, p.2), the following file types should be blocked from leaving the network:
+
+* Specific file types (such as executable files or .exe)
+
+Additionally, [1] (CSI-PHISHING-GUIDANCE.pdf, p.7) also mentions that file types such as:
+
+* .scr
+* .exe
+* .pif
+* .cpl
+* and mislabeled file extensions (e.g., a .exe file that is labeled as a .doc file) should be blocked from leaving the network.",36.15,
+What file types should be blocked from leaving the network?,clear,rerank,What file types should be blocked from leaving the network?,True,1.0,1.0,1.032,"According to the context, the following file types should be blocked from leaving the network:
+
+* Executable files (e.g. .exe)
+* .scr
+* .exe
+* .pif
+* .cpl
+* Mislabeled file extensions (e.g. a .exe file labeled as a .doc file)
+
+These file types are mentioned in [1], [2], and [3] as examples of file types that should be blocked to prevent malware execution.",34.14,
+What file types should be blocked from leaving the network?,clear,both,Block file types .exe .zip .rar from leaving the network,True,1.0,1.0,2.095,"According to the context, the following file types should be blocked from leaving the network:
+
+* Executable files (e.g. .exe)
+* .scr
+* .pif
+* .cpl
+* Mislabeled file extensions (e.g. a .exe file labeled as a .doc file)
+
+These file types are mentioned in [1], [2], [3], and [5] as examples of file types that should be blocked to prevent malware execution and phishing attacks.",16.28,
+What is the principle of least privilege?,clear,basic,What is the principle of least privilege?,True,1.0,1.0,0.021,"The principle of least privilege is a security control that allows users only the access needed to perform their jobs. It prevents privileged users from performing operations on the systems where they have elevated access, such as using personal email, browsing the internet, office automation tasks, and other recreational uses.",40.2,
+What is the principle of least privilege?,clear,rewrite,Principle of least privilege security concept definition,True,1.0,1.0,1.57,"The principle of least privilege (PoLP) is to implement when administering user accounts, and only allow designated administrator accounts to be used for administrative purposes.",48.85,
+What is the principle of least privilege?,clear,rerank,What is the principle of least privilege?,True,1.0,1.0,1.246,"The principle of least privilege (PoLP) is to implement it when administering user accounts, and only allow designated administrator accounts to be used for administrative purposes.",31.46,
+What is the principle of least privilege?,clear,both,Principle of least privilege security concept definition,True,1.0,1.0,2.219,"The principle of least privilege (PoLP) is to implement it when administering user accounts, and only allow designated administrator accounts to be used for administrative purposes.",19.82,
+What is number matching in multi-factor authentication?,clear,basic,What is number matching in multi-factor authentication?,True,1.0,1.0,0.028,"According to the context, number matching in multi-factor authentication (MFA) is a method that can mitigate MFA fatigue. It involves requiring the same phone number to be used for both MFA and the primary phone number associated with the account. This way, even if a malicious actor sends a multitude of approve or deny ""push requests"" to a user's phone, the user will not be able to authenticate with the compromised user's credentials, as the phone number used for MFA must match the primary phone number.",40.32,
+What is number matching in multi-factor authentication?,clear,rewrite,Number matching in multi-factor authentication,True,1.0,1.0,1.271,"According to the context, number matching in multi-factor authentication (MFA) is a security measure that requires the user's phone number to be matched with the one associated with the MFA code. This is done to prevent malicious actors from sending a multitude of approve or deny ""push requests"" until a user either accepts the request, often by accident or in frustration, and thus authenticate with the compromised user's credentials.",13.04,
+What is number matching in multi-factor authentication?,clear,rerank,What is number matching in multi-factor authentication?,True,1.0,1.0,2.191,"According to [1] (CSI-PHISHING-GUIDANCE.pdf, p.4) and [4] (CSI-PHISHING-GUIDANCE.pdf, p.4), number matching in multi-factor authentication refers to the practice of requiring a user's phone number to be matched with the phone number associated with the MFA code. This is done to prevent malicious actors from sending a multitude of approve or deny ""push requests"" until a user either accepts the request, often by accident or in frustration, and thus authenticates with the compromised user's credentials.",41.77,
+What is number matching in multi-factor authentication?,clear,both,Number matching in multi-factor authentication,True,1.0,1.0,3.23,"According to [1] (CSI-PHISHING-GUIDANCE.pdf, p.4) and [4] (CSI-PHISHING-GUIDANCE.pdf, p.4), number matching in multi-factor authentication refers to the practice of requiring a specific phone number to be associated with an account in order to receive SMS or voice-based MFA codes. This is done to prevent malicious actors from convincing cellular carrier representatives to transfer control of a user's phone number to receive MFA codes, thereby allowing them to authenticate with the compromised user's credentials.",43.36,
+What are the best practices for protecting my Aadhaar?,clear,basic,What are the best practices for protecting my Aadhaar?,True,1.0,1.0,0.063,"According to the context, the best practices for protecting your Aadhaar are:
+
+1. Lock your biometrics through the m-Aadhaar app/ UIDAI portal to prevent unauthorized access to your account details.
+2. Use Virtual ID (VID) or Masked Aadhaar to avoid disclosure of your Aadhaar number.
+3. Link your Aadhaar data to your mobile number to get alerts of any activity.
+4. Keep your digital Aadhaar copies secure.
+5. Do not share your Aadhaar details or OTP with strangers.
+6. Avoid saving your digital Aadhaar in public computers.
+7. Delete Aadhaar information/copies from public computers once your work is completed.
+
+These best practices are mentioned in [1] (CERT-In_Safe_Internet-Best_Practices_Booklet.pdf, p.9).",51.91,
+What are the best practices for protecting my Aadhaar?,clear,rewrite,"Best practices for securing Aadhaar number online and offline, including identity theft prevention and data protection measures.",True,1.0,1.0,2.954,"According to the context, the best practices for protecting your Aadhaar are:
+
+1. Lock your biometrics through the m-Aadhaar app/ UIDAI portal to prevent unauthorized access to your account details.
+2. Use Virtual ID (VID) or Masked Aadhaar to avoid disclosure of your Aadhaar number.
+3. Link your Aadhaar data to your mobile number to get alerts of any activity.
+4. Keep your digital Aadhaar copies secure.
+5. Do not share your Aadhaar details or OTP with strangers.
+6. Avoid saving your digital Aadhaar in public computers.
+7. Delete Aadhaar information/copies from public computers once your work is completed.
+
+These best practices are mentioned in [1] (CERT-In_Safe_Internet-Best_Practices_Booklet.pdf, p.9).",38.84,
+What are the best practices for protecting my Aadhaar?,clear,rerank,What are the best practices for protecting my Aadhaar?,True,1.0,1.0,1.388,"According to the context, the best practices for protecting your Aadhaar are:
+
+1. Lock your biometrics through the m-Aadhaar app/ UIDAI portal to prevent unauthorized access to your account details.
+2. Use Virtual ID (VID) or Masked Aadhaar to avoid disclosure of your Aadhaar number.
+3. Link your Aadhaar data to your mobile number to get alerts of any activity.
+4. Keep your digital Aadhaar copies secure.
+5. Do not share your Aadhaar details or OTP with strangers.
+6. Avoid saving your digital Aadhaar in public computers.
+7. Delete Aadhaar information/copies from public computers, once your work is completed.",27.44,
+What are the best practices for protecting my Aadhaar?,clear,both,"Best practices for securing Aadhaar number online and offline, including identity theft prevention and data protection measures.",True,1.0,1.0,3.463,"According to the context, the best practices for protecting your Aadhaar are:
+
+1. Lock your biometrics through the m-Aadhaar app/ UIDAI portal to prevent unauthorized access to your account details.
+2. Use Virtual ID (VID) or Masked Aadhaar to avoid disclosure of your Aadhaar number.
+3. Link your Aadhaar data to your mobile number to get alerts of any activity.
+4. Keep your digital Aadhaar copies secure.
+5. Do not share your Aadhaar details or OTP with strangers.
+6. Avoid saving your digital Aadhaar in public computers.
+7. Delete Aadhaar information/copies from public computers once your work is completed.",33.87,
+What is sandboxing used for in email security?,clear,basic,What is sandboxing used for in email security?,False,,0.0,0.027,I could not find this in the documents.,28.54,
+What is sandboxing used for in email security?,clear,rewrite,Sandboxing in email security: applications and benefits,False,,0.0,1.75,I could not find this in the documents.,30.14,
+What is sandboxing used for in email security?,clear,rerank,What is sandboxing used for in email security?,True,1.0,1.0,1.369,"According to [1] (Capacity_Enhancement_Guide-Counter-Phishing-Recommendations_for_Non-Federal_Organizations.pdf, p.2), sandboxing or detonation chambers are used to safely isolate malicious links.",43.1,
+What is sandboxing used for in email security?,clear,both,Sandboxing in email security: applications and benefits,True,3.0,0.3333333333333333,2.567,"According to [3] (Capacity_Enhancement_Guide-Counter-Phishing-Recommendations_for_Non-Federal_Organizations.pdf, p.2), sandboxing is used to safely isolate malicious links.",50.9,
+how do I stop someone guessing my logins?,vague,basic,how do I stop someone guessing my logins?,False,,0.0,0.033,I could not find this in the documents.,46.99,
+how do I stop someone guessing my logins?,vague,rewrite,how to prevent password guessing and account takeover security measures for individual users,False,,0.0,2.521,I could not find this in the documents.,39.75,
+how do I stop someone guessing my logins?,vague,rerank,how do I stop someone guessing my logins?,False,,0.0,2.139,"According to [1] and [5], to prevent someone guessing your logins, you should:
+
+* Create a different 6-digit PIN/password for each device
+* Avoid using guessable PINs like 123456 or 000000
+* Avoid using common passwords that criminals will try (like password or abcd1234)
+* Don't base PINs or passwords on personal information (like dates of birth, pets names, members of your family, etc.)
+* Consider writing your PIN or password down, but keep it safe and out of sight.
+
+Additionally, using face or fingerprint recognition (Windows Hello) can also add an extra layer of security to prevent guessing.",50.9,
+how do I stop someone guessing my logins?,vague,both,how to prevent guessing of login credentials,False,,0.0,2.035,"To stop someone guessing your logins, you should:
+
+* Create a different 6-digit PIN/password for each device, and avoid using the same one.
+* Avoid using guessable PINs like 123456 or 000000.
+* Avoid using common passwords that criminals will try (like password or abcd1234).
+* Don't base PINs or passwords on personal information (like dates of birth, pets names, members of your family, etc).
+* Consider writing your PIN or password down, but keep it safe and out of sight.
+
+Additionally, you can also consider implementing multi-factor authentication (MFA) and number matching to reduce the ability of malicious actors to guess your logins.",52.17,
+what extra step keeps my account safe if my password leaks?,vague,basic,what extra step keeps my account safe if my password leaks?,False,,0.0,0.025,I could not find this in the documents.,36.44,
+what extra step keeps my account safe if my password leaks?,vague,rewrite,account security measures after password leak,True,5.0,0.2,1.361,I could not find this in the documents.,30.33,
+what extra step keeps my account safe if my password leaks?,vague,rerank,what extra step keeps my account safe if my password leaks?,True,4.0,0.25,1.049,I could not find this in the documents.,31.83,
+what extra step keeps my account safe if my password leaks?,vague,both,account security measures after password leak,True,4.0,0.25,2.998,I could not find this in the documents.,37.08,
+what if my files get wiped by an attack?,vague,basic,what if my files get wiped by an attack?,True,1.0,1.0,0.025,I could not find this in the documents.,26.99,
+what if my files get wiped by an attack?,vague,rewrite,file deletion after cyber attack,True,3.0,0.3333333333333333,1.325,I could not find this in the documents.,36.12,
+what if my files get wiped by an attack?,vague,rerank,what if my files get wiped by an attack?,True,5.0,0.2,1.2,I could not find this in the documents.,30.13,
+what if my files get wiped by an attack?,vague,both,file deletion after cyber attack,True,2.0,0.5,2.962,I could not find this in the documents.,35.47,
+is it safe to buy things on the internet?,vague,basic,is it safe to buy things on the internet?,True,1.0,1.0,0.026,"Yes, it is safe to buy things on the internet if you follow the best practices mentioned in the context. This includes verifying the genuinity of the brand and e-commerce website, checking the security aspects of the website, using a secured internet connection, and avoiding suspicious links or transactions.",38.82,
+is it safe to buy things on the internet?,vague,rewrite,Online shopping safety and security,True,1.0,1.0,1.491,I could not find this in the documents.,12.25,
+is it safe to buy things on the internet?,vague,rerank,is it safe to buy things on the internet?,True,1.0,1.0,1.419,I could not find this in the documents.,26.39,
+is it safe to buy things on the internet?,vague,both,Online shopping safety and security,True,1.0,1.0,1.888,"Yes, it is safe to buy things on the internet if you follow the best practices mentioned in the documents. According to [1] and [5], you should verify the genuinity of the brand and e-commerce website, check the security aspects of the website, and use a secured internet connection. Additionally, you should avoid using public Wi-Fi for financial transactions and be cautious of suspicious links or emails that ask for personal information.",32.39,
+how do companies stop bad messages reaching staff?,vague,basic,how do companies stop bad messages reaching staff?,False,,0.0,0.022,"Companies can stop bad messages reaching staff by implementing the following measures:
+
+1. Enable Domain-based Message Authentication, Reporting, and Conformance (DMARC) for received emails, which rejects any incoming email that has a domain that is being spoofed when a DMARC policy of reject is enabled.
+2. Implement internal mail and messaging monitoring to identify suspicious activity and establish a baseline of normal network traffic.
+3. Use free security tools, such as OpenDNS Home, to prevent cyber threat actors from redirecting users to malicious websites to steal their credentials.
+4. Harden credentials by implementing user training on social engineering and phishing attacks, and by performing an account lockout when unusual activity or ongoing malicious login attempts are occurring.
+5. Use denylists at the email gateway and enable firewall rules to prevent successful malware deployment.
+6. Remove any unnecessary content from the organization's website and social media pages to reduce the likelihood of receiving scam messages.
+7. Review and update privacy settings within social media accounts to prevent sharing of personal information.
+8. Use separate business and personal accounts for social media, and treat personal social media like a business account.
+
+These measures can help prevent bad messages from reaching staff and reduce the risk of phishing attacks.",66.73,
+how do companies stop bad messages reaching staff?,vague,rewrite,Company email filtering and blocking policies to prevent malicious messages from reaching employees.,True,2.0,0.5,1.875,"According to the context, companies can stop bad messages reaching staff by implementing the following measures:
+
+* Deploying an email filter solution that filters based on content and headers, categorizes email, inspects URLs, and has customizable rule-based filters (Source: [2])
+* Stripping and/or blocking emails containing active content or macros by default, and only allowing this type of content on an allowlist for legitimate reasons (Source: [2])
+* Deploying sandboxing or detonation chambers to safely isolate malicious links (Source: [2])
+* Ensuring signatures and blocklists are up to date (Source: [2])
+* Ensuring all email gateways, appliances, and services are configured to use only approved DNS resolvers and forwarders (Source: [2])
+* Implementing Domain-based Message Authentication, Reporting, and Conformance (DMARC) for received emails (Source: [5])
+* Setting DMARC to ""reject"" for sent emails (Source: [5])
+* Using automatic email traffic monitoring mechanisms by default that scan email traffic for malicious attachments or URLs (Source: [4])
+* Mandating Multi-Factor Authentication (MFA) for privileged users (Source: [3, 4])
+* Providing email software with DMARC enabled for received emails by default (Source: [4])
+* Providing email software with DMARC configured to ""reject"" for sent emails by default (Source: [4])
+* Implementing threat modeling and field testing of email software to test its security against various deployment scenarios (Source: [4])
+* Providing email software with internal mail and messaging monitoring mechanisms enabled by default (Source: [4])",68.84,
+how do companies stop bad messages reaching staff?,vague,rerank,how do companies stop bad messages reaching staff?,False,,0.0,1.268,"Companies can stop bad messages reaching staff by removing any content that's not essential to their business from their website and social media pages, using separate business and personal accounts for social media, and implementing technical and preventive steps such as secure email gateway capabilities, outbound web-browsing protections, hardened user endpoints, and implementing denylists at the email gateway and enabling firewall rules to prevent successful malware deployment.",48.65,
+how do companies stop bad messages reaching staff?,vague,both,Company email filtering and blocking policies to prevent malicious messages from reaching employees.,True,3.0,0.3333333333333333,2.61,"According to the context, companies can stop bad messages from reaching staff by implementing the following measures:
+
+* Using email filtering software to block spam and only allow messages from authorized users to reach staff (Source: [2] (CERT-In_Safe_Internet-Best_Practices_Booklet.pdf, p.5))
+* Deploying an email filter solution that filters based on content and headers, categorizes email, inspects URLs, and has customizable rule-based filters (Source: [3] (Capacity_Enhancement_Guide-Counter-Phishing-Recommendations_for_Non-Federal_Organizations.pdf, p.2))
+* Blocking emails containing active content, such as ActiveX, Java, or macros, by default, and only allowing it for legitimate reasons (Source: [3] (Capacity_Enhancement_Guide-Counter-Phishing-Recommendations_for_Non-Federal_Organizations.pdf, p.2))
+* Using sandboxing or detonation chambers to safely isolate malicious links (Source: [3] (Capacity_Enhancement_Guide-Counter-Phishing-Recommendations_for_Non-Federal_Organizations.pdf, p.2))
+* Ensuring that email gateways, appliances, and services are configured to use only approved DNS resolvers and forwarders (Source: [3] (Capacity_Enhancement_Guide-Counter-Phishing-Recommendations_for_Non-Federal_Organizations.pdf, p.2))
+* Implementing DNS filtering or firewall denylists to block known malicious sites (Source: [5] (CSI-PHISHING-GUIDANCE.pdf, p.9))
+* Implementing anti-virus solutions to mitigate malware and prevent malware from executing if a malicious hyperlink or attachment from an email is opened (Source: [5] (CSI-PHISHING-GUIDANCE.pdf, p.9))
+
+These measures can be implemented by organizations to prevent bad messages from reaching staff.",77.87,
+how can I tell if a message is fake?,vague,basic,how can I tell if a message is fake?,True,1.0,1.0,0.032,"According to [4] (Small organisations guide to cyber security _ Spotting cyber attacks _ National Cyber Security Centre.pdf, p.2), you can identify a fake message by looking out for the following signs:
+
+* Many phishing messages look convincing and may pretend to be from someone you know or trust.
+* They may contain links to websites controlled by criminals, which may download a virus onto your computer, or steal your login/bank details.
+* They may ask you to access sensitive business details, or your customers' details, or your email (from which they can gain control of all your other accounts).
+
+It's also recommended to:
+
+* If you have any doubts about a message, contact the organisation directly.
+* Don't use the numbers or links in the message – use the details from their official website.
+* If you think you've clicked on a suspicious message, or you've been tricked into sharing your password (or other personal information), don't panic. Read the NCSC's phishing advice on steps to take to protect yourself, and follow the appropriate steps.
+* Consider what information is on your organisation's website and social media pages, and what detail is unnecessary (but could be useful for criminals).
+* Review your privacy settings within your social media accounts, and use separate business and personal accounts for social media.",70.2,
+how can I tell if a message is fake?,vague,rewrite,"Identifying fake messages: characteristics, red flags, and detection methods in online communication and social media.",True,1.0,1.0,2.822,"According to [1] and [2], you can tell if a message is fake by looking for ""tell-tale signs"" such as:
+
+* The message is from someone you know or trust, but it's urgent or creates a sense of panic.
+* The message contains links to websites controlled by criminals, which may download a virus onto your computer or steal your login/bank details.
+* The message asks you to provide sensitive information or transfer money.
+* The message is not from a trusted source, and the sender's email address may be suspicious.
+
+It's also recommended to be cautious of messages that:
+
+* Create a sense of urgency or panic
+* Ask you to click on links or download attachments
+* Request sensitive information or login credentials
+* Are not from a trusted source
+
+If you're still unsure, it's best to contact the organization directly using their official website details, rather than using the numbers or links in the message.",64.43,
+how can I tell if a message is fake?,vague,rerank,how can I tell if a message is fake?,True,1.0,1.0,1.265,"According to [1] and [2], you can tell if a message is fake by looking out for certain signs, such as:
+
+* Links to unknown sites (as mentioned in [1] and [2])
+* Pressure to act fast (as mentioned in [2])
+* Grammar and spelling mistakes (not explicitly mentioned in the provided context, but implied in [2])
+* Unsolicited requests for personal information (as mentioned in [1] and [2])
+* Emails that pretend to be from someone you know or trust, but may contain tell-tale signs such as login or bank details (as mentioned in [2])
+
+It's also recommended to be cautious of messages that:
+
+* Ask you to click on a link or download an attachment (as mentioned in [1] and [2])
+* Contain suspicious or unfamiliar sender information (as mentioned in [2])
+* Create a sense of urgency or panic (as mentioned in [2])
+
+If you're still unsure, it's best to err on the side of caution and contact the organisation directly using their official website details, rather than using the numbers or links in the message.",45.78,
+how can I tell if a message is fake?,vague,both,"Identifying fake messages: characteristics, red flags, and detection methods in online communication and social media.",True,1.0,1.0,3.773,I could not find this in the documents.,38.87,
+how do I keep my phone safe?,vague,basic,how do I keep my phone safe?,True,1.0,1.0,0.028,"According to the provided context, to keep your phone safe, you should:
+
+1. Use updated antivirus and anti-malware software.
+2. Use updated Operating system.
+3. Always download apps from playstore or appstore.
+4. Do not download apps from third party websites or links received through messages or chats.
+5. Enable only necessary permissions for apps.
+6. Do not click on any suspicious link received from strangers.
+7. Do not share your OTP received for any application with anyone.
+8. Enable Multi-Factor Authentication whenever possible.
+9. Always keep your phone locked if not in use.
+10. Avoid USB charging in public places.",45.71,
+how do I keep my phone safe?,vague,rewrite,"phone security tips and best practices for protecting against theft, loss, and hacking.",True,1.0,1.0,2.103,"According to the context, to keep your phone safe, you should:
+
+* Always keep your phone locked if not in use.
+* Avoid USB charging in public places.
+* Enable Multi-Factor Authentication whenever possible.
+* Enable only necessary permissions for apps.
+* Do not download apps from third party websites or links received through messages or chats.
+* Always download apps from playstore or appstore.
+* Use updated Operating system.
+* Use updated antivirus and anti-malware software.
+* Do not click on any suspicious link received from strangers.
+* Do not share your OTP received for any application with anyone.",44.21,
+how do I keep my phone safe?,vague,rerank,how do I keep my phone safe?,True,1.0,1.0,1.168,"According to the context, to keep your phone safe, you should:
+
+* Use updated antivirus and anti-malware software.
+* Use updated Operating system.
+* Always download apps from playstore or appstore.
+* Do not download apps from third party websites or links received through messages or chats.
+* Enable only necessary permissions for apps.
+* Do not click on any suspicious link received from strangers.
+* Do not share your OTP received for any application with anyone.
+* Enable Multi-Factor Authentication whenever possible.
+* Always keep your phone locked if not in use.
+* Avoid USB charging in public places.",20.58,
+how do I keep my phone safe?,vague,both,"phone security tips and best practices for protecting against theft, loss, and hacking.",True,1.0,1.0,2.755,"According to [1] (CERT-In_Safe_Internet-Best_Practices_Booklet.pdf, p.8) and [5] (Small organisations guide to cyber security _ Protecting your devices _ National Cyber Security Centre.pdf, p.3), to keep your phone safe, you should:
+
+* Enable Multi-Factor Authentication whenever possible.
+* Always keep your phone locked if not in use.
+* Avoid USB charging in public places.
+* Enable only necessary permissions for apps.
+* Do not download apps from third party websites or links received through messages or chats.
+* Always download apps from playstore or appstore.
+* Use updated Operating system.
+* Use updated antivirus and anti-malware software.",33.02,
+what should I do after clicking a bad link?,vague,basic,what should I do after clicking a bad link?,True,3.0,0.3333333333333333,0.024,I could not find this in the documents.,31.64,
+what should I do after clicking a bad link?,vague,rewrite,what to do after clicking a malicious link,True,4.0,0.25,1.655,I could not find this in the documents.,34.24,
+what should I do after clicking a bad link?,vague,rerank,what should I do after clicking a bad link?,True,1.0,1.0,1.201,I could not find this in the documents.,24.24,
+what should I do after clicking a bad link?,vague,both,what to do after clicking a malicious link,True,3.0,0.3333333333333333,2.481,I could not find this in the documents.,32.2,
+how do they stop it?,ambiguous,basic,how do they stop it?,True,5.0,0.2,0.019,"They stop phishing attacks by implementing the following measures:
+
+1. Deploying an email filter solution that filters based on content and headers, categorizes email, inspects uniform resource locators (URLs), and has customizable rule-based filters.
+2. Stripping and/or blocking emails containing active content (e.g., ActiveX, Java, Visual Basic) or macros by default, and only placing this type of content on the allowlist for legitimate reasons.
+3. Deploying sandboxing or detonation chambers to safely isolate malicious links.
+4. Ensuring signatures and blocklists are up to date.
+5. Ensuring all email gateways, appliances, and services are configured to use only approved Domain Name System (DNS) resolvers and forwarders.
+
+Additionally, they also recommend:
+
+* Implementing outbound web-browsing protections
+* Hardening user endpoints
+* Implementing endpoint protections
+
+These measures can be implemented in various ways, depending on the organization's needs, as recommended by CISA.",61.86,
+how do they stop it?,ambiguous,rewrite,Preventing a cyber attack,False,,0.0,1.31,I could not find this in the documents.,18.37,
+how do they stop it?,ambiguous,rerank,how do they stop it?,False,,0.0,0.947,I could not find the answer in the provided context.,29.14,
+how do they stop it?,ambiguous,both,Preventing a cyber attack,False,,0.0,1.493,I could not find this in the documents.,25.28,
+what should I do if it happens?,ambiguous,basic,what should I do if it happens?,False,,0.0,0.019,I could not find this in the documents.,24.13,
+what should I do if it happens?,ambiguous,rewrite,what are emergency steps to take if a natural disaster occurs,True,4.0,0.25,1.42,I could not find this in the documents.,18.18,
+what should I do if it happens?,ambiguous,rerank,what should I do if it happens?,False,,0.0,0.926,I could not find this in the documents.,27.7,
+what should I do if it happens?,ambiguous,both,what to do when unexpected event occurs,True,2.0,0.5,1.766,I could not find this in the documents.,24.97,
